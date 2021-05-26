@@ -49,4 +49,7 @@ aux :: Char -> Char -> Bool
 aux a b = a == b
 
 charFound :: Char -> String -> Bool
-charFound c s = length (filter (aux c) s) > 0
+charFound c s = any(True ==)(map(c ==)s)
+
+--solução prof:
+--charFound c s = length (filter (aux c) s) > 0
