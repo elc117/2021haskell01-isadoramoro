@@ -4,6 +4,9 @@
 
 -- Eleva um numero ao quadrado
 -- Aqui temos um comentario!
+
+module Inicio (isLongWord, isEvenBetter) where
+
 square :: Int -> Int
 square x = x^2
 

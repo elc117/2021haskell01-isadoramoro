@@ -1,6 +1,8 @@
 -- Prática 01 de Haskell - Parte 1
 -- Nome: Isadora Silveira Moro
 
+module Parte1 (htmlItem, isVowel2, isElderly, circleArea) where
+
 -- 1)
 sumSquares :: Int -> Int -> Int
 sumSquares x y = (x^2) + (y^2)
