@@ -44,6 +44,9 @@ countSpaces s = length (filter spaces s)
 calcAreas :: [Float] -> [Float]
 calcAreas lis = map circleArea lis
 
--- 9) ARRUMAR
-charFound :: Char -> String -> [Bool]
-charFound c s = map (c ==) s
+-- 9)
+aux :: Char -> Char -> Bool
+aux a b = a == b
+
+charFound :: Char -> String -> Bool
+charFound c s = length (filter (aux c) s) > 0
