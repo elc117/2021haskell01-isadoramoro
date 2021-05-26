@@ -17,12 +17,12 @@ svgCircle x y r style =
 svgAll :: String
 svgAll = 
   svgBegin 100 100 ++ 
-  (svgCircle 40 30 15 "rgb(105, 14, 30, 0.4)") ++ 
-  (svgCircle 60 30 15 "rgb(105, 14, 30, 0.4)") ++ 
-  (svgCircle 70 50 15 "rgb(105, 14, 30, 0.4)") ++ 
-  (svgCircle 60 70 15 "rgb(105, 14, 30, 0.4)") ++ 
-  (svgCircle 40 70 15 "rgb(105, 14, 30, 0.4)") ++ 
-  (svgCircle 30 50 15 "rgb(105, 14, 30, 0.4)") ++ 
+  (svgCircle 40 30 15 "rgb(105, 14, 30, 0.6)") ++ 
+  (svgCircle 60 30 15 "rgb(105, 14, 30, 0.6)") ++ 
+  (svgCircle 70 50 15 "rgb(105, 14, 30, 0.6)") ++ 
+  (svgCircle 60 70 15 "rgb(105, 14, 30, 0.6)") ++ 
+  (svgCircle 40 70 15 "rgb(105, 14, 30, 0.6)") ++ 
+  (svgCircle 30 50 15 "rgb(105, 14, 30, 0.6)") ++ 
   (svgCircle 50 50 10 "rgb(220, 230, 50, 1.0)") ++ 
   svgEnd
 
